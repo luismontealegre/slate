@@ -77,14 +77,15 @@ We also return VWAP - Volume weighted average price.  "vwap" is the expected pri
 
 ### HTTP Request
 
-`GET /v1/offer/buy?quantity`
+`GET /v1/offer/buy?amount`
+`GET /v1/offer/buy?maxspend`
 
 ### Query Parameters
 
 Parameter | Default | Description
 --------- | ------- | -----------
-quantity||The amount of crypto assets you will be trading
-
+amount||The amount of crypto assets you will be trading
+maxspend||The amount of usd you will be trading
 
 ## Get Orderbook
 
